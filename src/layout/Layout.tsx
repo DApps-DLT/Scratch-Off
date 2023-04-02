@@ -49,11 +49,10 @@ const Layout = (properties: any) => {
   const walletBalance = 5.3433;
   return (
     <>
-      <AppBar position="static" style={{ backgroundColor: "#ff5252" }}>
+      <AppBar position="static" style={{ backgroundColor: "teal" }}>
         <Container maxWidth={false}>
           <Toolbar disableGutters>
-            <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/scratch-lottery-2609515-2201549.png?f=avif" alt="" />
-            <strong><span style={{fontSize:"34px"}}>Scratch OFF</span></strong>
+            <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/scratch-lottery-2609515-2201549.png?f=avif" alt="" />      
             <Typography
               variant="h6"
               noWrap
@@ -69,7 +68,9 @@ const Layout = (properties: any) => {
                 textDecoration: 'none',
               }}
             >
-              
+            <strong>
+              <span style={{fontSize:"34px"}}>ScratchOFF</span>
+            </strong>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -101,30 +102,8 @@ const Layout = (properties: any) => {
                   display: { xs: 'block', md: 'none' },
                 }}
               >
-                <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">One</Typography>
-                </MenuItem>
               </Menu>
             </Box>
-            <BurstModeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-            <Typography
-              variant="h5"
-              noWrap
-              component="a"
-              href=""
-              sx={{
-                mr: 2,
-                display: { xs: 'flex', md: 'none' },
-                flexGrow: 1,
-                fontFamily: 'monospace',
-                fontWeight: 700,
-                letterSpacing: '.3rem',
-                color: 'inherit',
-                textDecoration: 'none',
-              }}
-            >
-              ZK Powerball
-            </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               <Button
                 onClick={handleCloseNavMenu}

@@ -52,7 +52,7 @@ const Index = () => {
                 boxShadow: "5px 5px #333333"
               }}
                 href="/games"
-                variant="outlined"><strong>NFT<span style={{fontSize:"1.5em"}}>X</span></strong></Button>
+                variant="outlined"><strong>Play NFT<span style={{fontSize:"1.5em"}}>X</span></strong></Button>
             </Box>
           </>
         }

@@ -18,7 +18,7 @@ const ScratchOffCard = () => {
         textShadow: "none",
         margin: "auto",
         display: "table",
-        backgroundColor: "white",
+        backgroundColor: "black",
         border: "2px solid gold",
         paddingTop: "20px",
         boxShadow: "5px 5px 5px 5px",
@@ -27,45 +27,49 @@ const ScratchOffCard = () => {
         paddingLeft: "20px"
       }} >
         <br />
-        <img src="https://see.fontimg.com/api/renderfont4/ow3e4/eyJyIjoiZnMiLCJoIjo2MiwidyI6MjAwMCwiZnMiOjMxLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TkZU/xtrude-regular.png" alt="sss" />
-        <img src="https://see.fontimg.com/api/renderfont4/eZRPg/eyJyIjoiZHciLCJoIjo2NCwidyI6MjAwMCwiZnMiOjMyLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiJ9/WA/sunnyskypersonaluse-boldita.png" alt="aaa" />
-        <h4 style={{color: "black"}}>The winning Symbols</h4>
-        <Box style={{ display: "flex" }}>
+        <img src="https://see.fontimg.com/api/renderfont4/DO3oE/eyJyIjoiZnMiLCJoIjo2NCwidyI6MjAwMCwiZnMiOjMyLCJmZ2MiOiIjRDE5RDFFIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TkZUWA/quicksilver-fast-regular.png" alt="sss" />
+        <h4 style={{color: "white"}}>Winning Symbols</h4>
+        <Box style={{ 
+          display: "flex", 
+          border: "0.25em solid goldenrod", 
+          width: "fit-content",
+          backgroundColor: "goldenrod"
+           }}>
           <ScratchCard
             width={50}
             height={50}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "20px" }} />
+          <span style={{ marginRight: "0.25em" }} />
           <ScratchCard
             width={50}
             height={50}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "20px" }} />
+          <span style={{ marginRight: "0.25em" }} />
           <ScratchCard
             width={50}
             height={50}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "20px" }} />
+          <span style={{ marginRight: "0.25em" }} />
           <ScratchCard
             width={50}
             height={50}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
@@ -76,50 +80,52 @@ const ScratchOffCard = () => {
             width={175}
             height={175}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard> */}
        
         {/* _____________ */}
-        <h4 style={{color: "black"}}>Your Symbols</h4>
+        <h4 style={{color: "white"}}>Your Symbols</h4>
         <Box style={{ display: "flex" }}>
+          <div style={{border: "0.25em solid goldenrod"}}>
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          </div>
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
@@ -132,37 +138,37 @@ const ScratchOffCard = () => {
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
@@ -175,37 +181,37 @@ const ScratchOffCard = () => {
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
           </ScratchCard>
-          <span style={{ marginRight: "40px" }} />
+          <span style={{ marginRight: "1em" }} />
           <ScratchCard
             width={100}
             height={100}
             image={CoverImage}
-            finishPercent={75}
+            finishPercent={99}
             onComplete={() => alert('complete')}
           >
             <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
@@ -216,7 +222,7 @@ const ScratchOffCard = () => {
         <Button style={{
                 width: "25em",
                 height: "3em",
-                backgroundColor: "#ff5252",
+                backgroundColor: "goldenrod",
                 borderColor: "black",
                 color: "white",
                 boxShadow: "5px 5px #333333",
