@@ -14,6 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from "@mui/material/Toolbar";
 import Chip from "@mui/material/Chip";
 import { useAccount, useBalance, useDisconnect } from 'wagmi'
+import Link from "@mui/material/Link";
 
 const Layout = (properties: any) => {
   const { children } = properties;
@@ -49,10 +50,10 @@ const Layout = (properties: any) => {
   const walletBalance = 5.3433;
   return (
     <>
-      <AppBar position="static" style={{ backgroundColor: "teal" }}>
+      <AppBar position="static" style={{ backgroundColor: "teal", textShadow: "2px 2px #333333" }}>
         <Container maxWidth={false}>
           <Toolbar disableGutters>
-            <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/scratch-lottery-2609515-2201549.png?f=avif" alt="" />      
+            <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/scratch-lottery-2609515-2201549.png?f=avif" alt="" />
             <Typography
               variant="h6"
               noWrap
@@ -68,9 +69,9 @@ const Layout = (properties: any) => {
                 textDecoration: 'none',
               }}
             >
-            <strong>
-              <span style={{fontSize:"34px"}}>ScratchOFF</span>
-            </strong>
+              <strong>
+                <span style={{ fontSize: "34px" }}>ScratchOFF</span>
+              </strong>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -102,6 +103,12 @@ const Layout = (properties: any) => {
                   display: { xs: 'block', md: 'none' },
                 }}
               >
+                <MenuItem>
+                  <Link href="/about" style={{textDecoration: "none", color: "black"}}>about</Link>
+                </MenuItem>
+                <MenuItem>
+                  <Link href="/games" style={{textDecoration: "none", color: "black"}}>games</Link>
+                </MenuItem>
               </Menu>
             </Box>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -157,7 +164,7 @@ const Layout = (properties: any) => {
                     <MenuItem onClick={handleCloseUserMenu}>
                       <Typography textAlign="center">My Tickets</Typography>
                     </MenuItem>
-                    <MenuItem onClick={() => {disconnect(); console.log("connected: ", isConnected)}}>
+                    <MenuItem onClick={() => { disconnect(); console.log("connected: ", isConnected) }}>
                       <Typography textAlign="center">Logout</Typography>
                     </MenuItem>
                   </Menu>

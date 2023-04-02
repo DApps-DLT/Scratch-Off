@@ -23,8 +23,15 @@ const Index = () => {
         top: "50%",
         margin: "auto",
         width: "100%",
-        textAlign: "center"
+        textAlign: "center",
+        textShadow: "none"
       }}>
+        <p>
+          Connect your Wallet with the Metask   
+           <span> </span><a href="https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202">extension</a>,<span> </span>  
+          <a href="https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202">ios</a>,<span> </span>
+           <a href="https://apps.apple.com/us/app/metamask-blockchain-wallet/id1438144202">android</a>.
+        </p>
         {!isConnected
           ? <>
             <Box sx={{ flexGrow: 1 }}>
@@ -52,7 +59,7 @@ const Index = () => {
                 boxShadow: "5px 5px #333333"
               }}
                 href="/games"
-                variant="outlined"><strong>Play NFT<span style={{fontSize:"1.5em"}}>X</span></strong></Button>
+                variant="outlined"><strong>Play NFT<span style={{fontSize:"1.15em"}}>X</span></strong></Button>
             </Box>
           </>
         }

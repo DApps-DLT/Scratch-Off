@@ -20,7 +20,7 @@ const CardModal = (properties: any) => {
           <CardMedia
             component="img"
             height="140"
-            image=""
+            image="https://see.fontimg.com/api/renderfont4/DO3oE/eyJyIjoiZnMiLCJoIjozNCwidyI6MjAwMCwiZnMiOjE3LCJmZ2MiOiIjRDE5RDFFIiwiYmdjIjoiIzYwMjIyMiIsInQiOjF9/TkZUWA/quicksilver-fast-regular.png"
             alt="NFTX"
           />
           <CardContent>
@@ -28,7 +28,7 @@ const CardModal = (properties: any) => {
               NFTX
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Match any of your NFT symbol to the winning NFT symbols to win up 10x TIMES!
+              Match the winning symbols in any of the 3 rows for 10x the payout in ETH
             </Typography>
           </CardContent>
         </CardActionArea>    

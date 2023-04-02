@@ -28,13 +28,17 @@ const ScratchOffCard = () => {
       }} >
         <br />
         <img src="https://see.fontimg.com/api/renderfont4/DO3oE/eyJyIjoiZnMiLCJoIjo2NCwidyI6MjAwMCwiZnMiOjMyLCJmZ2MiOiIjRDE5RDFFIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TkZUWA/quicksilver-fast-regular.png" alt="sss" />
-        <h4 style={{color: "white"}}>Winning Symbols</h4>
-        <Box style={{ 
-          display: "flex", 
-          border: "0.25em solid goldenrod", 
+         <span style={{color: "white"}}>#1</span>
+        <h4 style={{
+          color: "goldenrod",
+          textShadow: "0.1em 0.1em darkgoldenrod"
+        }}>Winning Symbols</h4>
+        <Box style={{
+          display: "flex",
+          border: "0.25em solid goldenrod",
           width: "fit-content",
           backgroundColor: "goldenrod"
-           }}>
+        }}>
           <ScratchCard
             width={50}
             height={50}
@@ -76,161 +80,173 @@ const ScratchOffCard = () => {
           </ScratchCard>
 
         </Box>
-        {/* <ScratchCard
-            width={175}
-            height={175}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard> */}
-       
         {/* _____________ */}
-        <h4 style={{color: "white"}}>Your Symbols</h4>
+        <h4 style={{
+          color: "goldenrod",
+          textShadow: "0.1em 0.1em darkgoldenrod"
+        }}>Your Symbols</h4>
         <Box style={{ display: "flex" }}>
-          <div style={{border: "0.25em solid goldenrod"}}>
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
           </div>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
         </Box>
         <br />
         <Box style={{ display: "flex" }}>
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
         </Box>
         <br />
         <Box style={{ display: "flex" }}>
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-          <span style={{ marginRight: "1em" }} />
-          <ScratchCard
-            width={100}
-            height={100}
-            image={CoverImage}
-            finishPercent={99}
-            onComplete={() => alert('complete')}
-          >
-            <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
-          </ScratchCard>
-
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
+          <span style={{ marginRight: "0.5em" }} />
+          <div style={{ border: "0.25em solid goldenrod" }}>
+            <ScratchCard
+              width={100}
+              height={100}
+              image={CoverImage}
+              finishPercent={99}
+              onComplete={() => alert('complete')}
+            >
+              <img src={Cherry} alt="cherry" style={{ display: "block", height: "inherit", margin: "auto" }} />
+            </ScratchCard>
+          </div>
         </Box>
         <br />
         <Button style={{
-                width: "25em",
-                height: "3em",
-                backgroundColor: "goldenrod",
-                borderColor: "black",
-                color: "white",
-                boxShadow: "5px 5px #333333",
-                display: "flex",
-                margin: "auto"
-              }}
-                href="/"
-                variant="outlined"><strong>CLAIM</strong></Button>
+          width: "25em",
+          height: "3em",
+          backgroundColor: "goldenrod",
+          borderColor: "black",
+          color: "white",
+          boxShadow: "5px 5px #333333",
+          display: "flex",
+          margin: "auto"
+        }}
+          href="/"
+          variant="outlined"><strong style={{textShadow: "0.1em 0.1em black"}}>CLAIM</strong></Button>
       </div>
     </>
   );
