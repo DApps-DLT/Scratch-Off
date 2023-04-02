@@ -28,7 +28,7 @@ const ScratchOffCard = () => {
       }} >
         <br />
         <img src="https://see.fontimg.com/api/renderfont4/DO3oE/eyJyIjoiZnMiLCJoIjo2NCwidyI6MjAwMCwiZnMiOjMyLCJmZ2MiOiIjRDE5RDFFIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TkZUWA/quicksilver-fast-regular.png" alt="sss" />
-         <span style={{color: "white"}}>#1</span>
+        <span style={{ color: "white" }}>#1</span>
         <h4 style={{
           color: "goldenrod",
           textShadow: "0.1em 0.1em darkgoldenrod"
@@ -246,7 +246,7 @@ const ScratchOffCard = () => {
           margin: "auto"
         }}
           href="/"
-          variant="outlined"><strong style={{textShadow: "0.1em 0.1em black"}}>CLAIM</strong></Button>
+          variant="outlined"><strong style={{ textShadow: "0.1em 0.1em black" }}>CLAIM</strong></Button>
       </div>
     </>
   );
